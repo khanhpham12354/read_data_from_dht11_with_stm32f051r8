@@ -1,0 +1,112 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+C:\Users\Pham Khanh\Desktop\embeded_Map\timer\pro\timer.uvproj
+Project File Date:  04/14/2019
+
+<h2>Output:</h2>
+Build target 'Target 1'
+linking...
+Program Size: Code=4792 RO-data=224 RW-data=24 ZI-data=1632  
+FromELF: creating hex file...
+"..\out\timer.axf" - 0 Error(s), 0 Warning(s).
+</pre>
+</body>
+</html>
+recated declaration RCC_Usart_init - give arg types
+  void RCC_Usart_init();
+..\inc\sw_interrupt.h(5): warning:  #1295-D: Deprecated declaration It_init - give arg types
+  void It_init();
+..\inc\sw_interrupt.h(6): warning:  #1295-D: Deprecated declaration It_usart1 - give arg types
+  void It_usart1();
+..\inc\sw_delay.h(4): warning:  #1295-D: Deprecated declaration systick_init - give arg types
+  void systick_init();
+..\inc\sw_delay.h(6): warning:  #1295-D: Deprecated declaration get_state_systick - give arg types
+  unsigned int get_state_systick();
+..\inc\sw_lcd1602.h(7): warning:  #1295-D: Deprecated declaration init_pin - give arg types
+  void init_pin();
+..\inc\sw_lcd1602.h(8): warning:  #1295-D: Deprecated declaration lcd_Init - give arg types
+  void lcd_Init();
+..\inc\sw_lcd1602.h(9): warning:  #1295-D: Deprecated declaration lcd_Enable - give arg types
+  void lcd_Enable();
+..\inc\sw_lcd1602.h(12): warning:  #1295-D: Deprecated declaration lcd_Clear - give arg types
+  void lcd_Clear();
+..\inc\sw_uart.h(5): warning:  #1295-D: Deprecated declaration Usart1_Init - give arg types
+  void Usart1_Init();
+..\src\main.c: 11 warnings, 0 errors
+compiling sw_delay.c...
+..\inc\sw_delay.h(4): warning:  #1295-D: Deprecated declaration systick_init - give arg types
+  void systick_init();
+..\inc\sw_delay.h(6): warning:  #1295-D: Deprecated declaration get_state_systick - give arg types
+  unsigned int get_state_systick();
+..\src\sw_delay.c: 2 warnings, 0 errors
+compiling sw_lcd1602.c...
+..\inc\sw_delay.h(4): warning:  #1295-D: Deprecated declaration systick_init - give arg types
+  void systick_init();
+..\inc\sw_delay.h(6): warning:  #1295-D: Deprecated declaration get_state_systick - give arg types
+  unsigned int get_state_systick();
+..\inc\sw_rcc.h(7): warning:  #1295-D: Deprecated declaration RCC_HSE_init - give arg types
+  void RCC_HSE_init();
+..\inc\sw_rcc.h(8): warning:  #1295-D: Deprecated declaration RCC_Usart_init - give arg types
+  void RCC_Usart_init();
+..\inc\sw_lcd1602.h(7): warning:  #1295-D: Deprecated declaration init_pin - give arg types
+  void init_pin();
+..\inc\sw_lcd1602.h(8): warning:  #1295-D: Deprecated declaration lcd_Init - give arg types
+  void lcd_Init();
+..\inc\sw_lcd1602.h(9): warning:  #1295-D: Deprecated declaration lcd_Enable - give arg types
+  void lcd_Enable();
+..\inc\sw_lcd1602.h(12): warning:  #1295-D: Deprecated declaration lcd_Clear - give arg types
+  void lcd_Clear();
+..\src\sw_lcd1602.c: 8 warnings, 0 errors
+linking...
+Program Size: Code=4792 RO-data=224 RW-data=24 ZI-data=1632  
+FromELF: creating hex file...
+"..\out\timer.axf" - 0 Error(s), 21 Warning(s).
+ declaration init_pin - give arg types
+  void init_pin();
+..\inc\sw_lcd1602.h(8): warning:  #1295-D: Deprecated declaration lcd_Init - give arg types
+  void lcd_Init();
+..\inc\sw_lcd1602.h(9): warning:  #1295-D: Deprecated declaration lcd_Enable - give arg types
+  void lcd_Enable();
+..\inc\sw_lcd1602.h(12): warning:  #1295-D: Deprecated declaration lcd_Clear - give arg types
+  void lcd_Clear();
+..\src\sw_lcd1602.c(98): warning:  #1-D: last line of file ends without a newline
+  }
+..\src\sw_lcd1602.c: 9 warnings, 0 errors
+compiling sw_uart.c...
+..\inc\sw_uart.h(5): warning:  #1295-D: Deprecated declaration Usart1_Init - give arg types
+  void Usart1_Init();
+..\src\sw_uart.c(38): warning:  #68-D: integer conversion resulted in a change of sign
+          state = -1;
+..\src\sw_uart.c: 2 warnings, 0 errors
+linking...
+Program Size: Code=4792 RO-data=224 RW-data=24 ZI-data=1632  
+FromELF: creating hex file...
+"..\out\timer.axf" - 0 Error(s), 28 Warning(s).
+eprecated declaration lcd_Init - give arg types
+  void lcd_Init();
+..\inc\sw_lcd1602.h(9): warning:  #1295-D: Deprecated declaration lcd_Enable - give arg types
+  void lcd_Enable();
+..\inc\sw_lcd1602.h(12): warning:  #1295-D: Deprecated declaration lcd_Clear - give arg types
+  void lcd_Clear();
+..\inc\sw_lcd1602.h(17): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\src\sw_lcd1602.c(98): warning:  #1-D: last line of file ends without a newline
+  }
+..\src\sw_lcd1602.c: 11 warnings, 0 errors
+compiling sw_uart.c...
+..\inc\hw_uart.h(18): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\inc\sw_uart.h(5): warning:  #1295-D: Deprecated declaration Usart1_Init - give arg types
+  void Usart1_Init();
+..\inc\sw_uart.h(9): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\src\sw_uart.c(38): warning:  #68-D: integer conversion resulted in a change of sign
+          state = -1;
+..\src\sw_uart.c: 4 warnings, 0 errors
+linking...
+Program Size: Code=4792 RO-data=224 RW-data=24 ZI-data=1632  
+FromELF: creating hex file...
+"..\out\timer.axf" - 0 Error(s), 40 Warning(s).

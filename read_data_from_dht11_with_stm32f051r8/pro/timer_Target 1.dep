@@ -1,0 +1,65 @@
+Dependencies for Project 'timer', Target 'Target 1': (DO NOT MODIFY !)
+F (.\startup_stm32f051.s)(0x5BFF430F)(--cpu Cortex-M0 -g --apcs=interwork -I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ST\STM32F0xx--list .\startup_stm32f051.lst --xref -o ..\out\startup_stm32f051.o --depend ..\out\startup_stm32f051.d)
+F (..\src\main.c)(0x5CB5A492)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork -I..\inc-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ST\STM32F0xx-DSTM32F051-o ..\out\main.o --omf_browse ..\out\main.crf --depend ..\out\main.d)
+I (..\inc\hw_stm32f051r8.h)(0x5CB3F1FA)
+I (..\inc\hw_rcc.h)(0x5BFF430F)
+I (..\inc\hw_gpio.h)(0x5BFF430F)
+I (..\inc\hw_exti.h)(0x5BFF430F)
+I (..\inc\hw_lcd1602.h)(0x5CB3F03B)
+I (..\inc\hw_uart.h)(0x5CB5A43B)
+I (..\inc\sw_rcc.h)(0x5CB5A493)
+I (..\inc\sw_gpio.h)(0x5CB3F45A)
+I (..\inc\sw_interrupt.h)(0x5CB3F60B)
+I (..\inc\sw_delay.h)(0x5CB5A4CD)
+I (..\inc\sw_lcd1602.h)(0x5CB5A493)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x53464854)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x53464854)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x53464854)
+I (..\inc\sw_uart.h)(0x5CB5A493)
+F (..\src\sw_gpio.c)(0x5CB28DE0)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork -I..\inc-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ST\STM32F0xx-DSTM32F051-o ..\out\sw_gpio.o --omf_browse ..\out\sw_gpio.crf --depend ..\out\sw_gpio.d)
+I (..\inc\sw_gpio.h)(0x5CB3F45A)
+I (..\inc\hw_gpio.h)(0x5BFF430F)
+F (..\src\sw_interrupt.c)(0x5CB3F1DE)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork -I..\inc-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ST\STM32F0xx-DSTM32F051-o ..\out\sw_interrupt.o --omf_browse ..\out\sw_interrupt.crf --depend ..\out\sw_interrupt.d)
+I (..\inc\sw_interrupt.h)(0x5CB3F60B)
+I (..\inc\hw_stm32f051r8.h)(0x5CB3F1FA)
+I (..\inc\hw_rcc.h)(0x5BFF430F)
+I (..\inc\hw_gpio.h)(0x5BFF430F)
+I (..\inc\hw_exti.h)(0x5BFF430F)
+I (..\inc\hw_lcd1602.h)(0x5CB3F03B)
+I (..\inc\hw_uart.h)(0x5CB5A43B)
+F (..\src\sw_rcc.c)(0x5CB3F11A)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork -I..\inc-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ST\STM32F0xx-DSTM32F051-o ..\out\sw_rcc.o --omf_browse ..\out\sw_rcc.crf --depend ..\out\sw_rcc.d)
+I (..\inc\sw_rcc.h)(0x5CB5A493)
+I (..\inc\hw_stm32f051r8.h)(0x5CB3F1FA)
+I (..\inc\hw_rcc.h)(0x5BFF430F)
+I (..\inc\hw_gpio.h)(0x5BFF430F)
+I (..\inc\hw_exti.h)(0x5BFF430F)
+I (..\inc\hw_lcd1602.h)(0x5CB3F03B)
+I (..\inc\hw_uart.h)(0x5CB5A43B)
+F (..\src\sw_delay.c)(0x5CB2080D)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork -I..\inc-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ST\STM32F0xx-DSTM32F051-o ..\out\sw_delay.o --omf_browse ..\out\sw_delay.crf --depend ..\out\sw_delay.d)
+I (..\inc\sw_delay.h)(0x5CB5A4CD)
+I (..\inc\hw_stm32f051r8.h)(0x5CB3F1FA)
+I (..\inc\hw_rcc.h)(0x5BFF430F)
+I (..\inc\hw_gpio.h)(0x5BFF430F)
+I (..\inc\hw_exti.h)(0x5BFF430F)
+I (..\inc\hw_lcd1602.h)(0x5CB3F03B)
+I (..\inc\hw_uart.h)(0x5CB5A43B)
+F (..\src\sw_lcd1602.c)(0x5CB5A49E)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork -I..\inc-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ST\STM32F0xx-DSTM32F051-o ..\out\sw_lcd1602.o --omf_browse ..\out\sw_lcd1602.crf --depend ..\out\sw_lcd1602.d)
+I (..\inc\sw_lcd1602.h)(0x5CB5A493)
+I (..\inc\hw_stm32f051r8.h)(0x5CB3F1FA)
+I (..\inc\hw_rcc.h)(0x5BFF430F)
+I (..\inc\hw_gpio.h)(0x5BFF430F)
+I (..\inc\hw_exti.h)(0x5BFF430F)
+I (..\inc\hw_lcd1602.h)(0x5CB3F03B)
+I (..\inc\hw_uart.h)(0x5CB5A43B)
+I (..\inc\sw_delay.h)(0x5CB5A4CD)
+I (..\inc\sw_gpio.h)(0x5CB3F45A)
+I (..\inc\sw_rcc.h)(0x5CB5A493)
+F (..\src\sw_uart.c)(0x5CB3F4AB)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork -I..\inc-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ST\STM32F0xx-DSTM32F051-o ..\out\sw_uart.o --omf_browse ..\out\sw_uart.crf --depend ..\out\sw_uart.d)
+I (..\inc\sw_uart.h)(0x5CB5A493)
+I (..\inc\hw_stm32f051r8.h)(0x5CB3F1FA)
+I (..\inc\hw_rcc.h)(0x5BFF430F)
+I (..\inc\hw_gpio.h)(0x5BFF430F)
+I (..\inc\hw_exti.h)(0x5BFF430F)
+I (..\inc\hw_lcd1602.h)(0x5CB3F03B)
+I (..\inc\hw_uart.h)(0x5CB5A43B)
+I (..\inc\sw_gpio.h)(0x5CB3F45A)
